@@ -8,16 +8,18 @@ class ShainFactory
 end
 
 # リファクタリング前のcreateメソッド
-# def create(type, kihonkyu)
-#   shain = nil
-#   if type == 'Tanto'
-#     shain = Tanto.new(kihonkyu)
-#   elsif type == 'Shunin'
-#     shain = Shunin.new(kihonkyu)
-#   elsif type == 'Bucho'
-#     shain = Bucho.new(kihonkyu)
-#   elsif type == 'Torishimariyaku'
-#     shain = Torishimariyaku.new(kihonkyu)
+# class ShainFactory
+#   def create(type, kihonkyu)
+#     shain = nil
+#     if type == 'Tanto'
+#       shain = Tanto.new(kihonkyu)
+#     elsif type == 'Shunin'
+#       shain = Shunin.new(kihonkyu)
+#     elsif type == 'Bucho'
+#       shain = Bucho.new(kihonkyu)
+#     elsif type == 'Torishimariyaku'
+#       shain = Torishimariyaku.new(kihonkyu)
+#     end
+#     shain
 #   end
-#   shain
 # end
